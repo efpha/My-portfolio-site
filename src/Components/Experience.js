@@ -16,21 +16,21 @@ return(
                 <div className="row-1">
                     <section>
                         <div className="icon-experience">
-                        <FontAwesomeIcon icon={faCertificate} />
+                        <FontAwesomeIcon className="actual-icon" icon={faCertificate} />
                             <p>javaScript</p>
                         </div>
                         <p className="experience-level">Intermediate</p>
                     </section>
                     <section>
                         <div className="icon-experience">
-                            <FontAwesomeIcon icon={faCertificate} size="1x"/>
+                            <FontAwesomeIcon className="actual-icon" icon={faCertificate} size="1x"/>
                             <p>TypeScript</p>
                         </div>
                         <p className="experience-level">Beginner</p>
                     </section>
                     <section>
                         <div className="icon-experience">
-                            <FontAwesomeIcon icon={faCertificate} size="1x"/>
+                            <FontAwesomeIcon className="actual-icon" icon={faCertificate} size="1x"/>
                             <p>CSS</p>
                         </div>
                         <p className="experience-level">Intermediate</p>
@@ -39,21 +39,21 @@ return(
                 <div className="row-2">
                 <section>
                         <div className="icon-experience">
-                            <FontAwesomeIcon icon={faCertificate} size="1x"/>
+                            <FontAwesomeIcon className="actual-icon" icon={faCertificate} size="1x"/>
                             <p>React.js</p>
                         </div>
                         <p className="experience-level">Intermediate</p>
                     </section>
                     <section>
                         <div className="icon-experience">
-                            <FontAwesomeIcon icon={faCertificate} size="1x"/>
+                            <FontAwesomeIcon className="actual-icon" icon={faCertificate} size="1x"/>
                             <p>HTML</p>
                         </div>
                         <p className="experience-level">Intermediate</p>
                     </section>
                     <section>
                         <div className="icon-experience">
-                            <FontAwesomeIcon icon={faCertificate} size="1x"/>
+                            <FontAwesomeIcon className="actual-icon" icon={faCertificate} size="1x"/>
                             <p>BOOTSTRAP</p>
                         </div>
                         <p className="experience-level">Beginner</p>
@@ -68,22 +68,22 @@ return(
                 <div className="row-1">
                 <section>
                         <div className="icon-experience">
-                            <FontAwesomeIcon icon={faCertificate} size="1x"/>
-                            <p>node.js</p>
+                            <FontAwesomeIcon className="actual-icon" icon={faCertificate} size="1x"/>
+                            <p>Node.js</p>
                         </div>
                         <p className="experience-level">Intermediate</p>
                     </section>
                     <section>
                         <div className="icon-experience">
-                            <FontAwesomeIcon icon={faCertificate} size="1x"/>
-                            <p>RESTful APIs</p>
+                            <FontAwesomeIcon className="actual-icon" icon={faCertificate} size="1x"/>
+                            <p>Express.js</p>
                         </div>
                         <p className="experience-level">Intermediate</p>
                     </section>
                     <section>
                         <div className="icon-experience">
-                            <FontAwesomeIcon icon={faCertificate} size="1x"/>
-                            <p>Git</p>
+                            <FontAwesomeIcon className="actual-icon" icon={faCertificate} size="1x"/>
+                            <p>Git and Github</p>
                         </div>
                         <p className="experience-level">Intermediate</p>
                     </section>                      
@@ -91,14 +91,14 @@ return(
                 <div className="row-2">
                 <section>
                         <div className="icon-experience">
-                            <FontAwesomeIcon icon={faCertificate} size="1x"/>
-                            <p>Express.js</p>
+                            <FontAwesomeIcon className="actual-icon" icon={faCertificate} size="1x"/>
+                            <p>RESTful APIs</p>
                         </div>
                         <p className="experience-level">Intermediate</p>
                     </section> 
                     <section>
                         <div className="icon-experience">
-                            <FontAwesomeIcon icon={faCertificate} size="1x"/>
+                            <FontAwesomeIcon className="actual-icon" icon={faCertificate} size="1x"/>
                             <p>mySQL</p>
                         </div>
                         <p className="experience-level">Intermediate</p>

@@ -23,19 +23,18 @@
     font-size: 24px;
     cursor: pointer;
     padding: 0.5em;
-    /* margin-top: 10px; */
   }
 
   .navbar ul {
     display: none;
     flex-direction: column;
     background: #fff;
-    width: 50%;
-    height: 25vh;
+    width: 65%;
+    /* height: 25vh; */
     padding: 1em 0;
     position: relative;
     top: 5vh;
-    margin-left: 50%;
+    margin-left: 30%;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2), 0 2px 5px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
   }
@@ -47,6 +46,7 @@
   .navbar ul li {
     margin: 1em 20%;
     list-style-type: none;
+    text-align: left;
   }
   .navbar ul li a{
     text-decoration: none;
@@ -55,11 +55,9 @@
   .navbar .menu-icon {
     display: block;
     position: absolute;
-    right: 1em;
+    right: 1.5em;
   }
-
-
-  .menu {
+  .menu{
     display: block;
   }
 
@@ -87,6 +85,7 @@
 
   .card-1,
   .card-2 {
+    color: rgb(0, 0, 0);
     width: 100%;
     margin-bottom: 1em;
     position: relative;
@@ -119,6 +118,16 @@
 
   .icons-container ul li {
     margin: 0 1em;
+    list-style-type: none;
+  }
+  .icons-container ul li a {
+    text-decoration: none;
+    color: #000;
+    transition: transform 0.3s, font-size 0.3s, background-color 0.3s;
+  }
+  
+  .icons-container ul li a:hover {
+    transform: scale(1.2); 
   }
 
   .twin-btn {
@@ -131,14 +140,25 @@
   .twin-btn button {
     width: 80%;
     margin: 0.5em 0;
+    padding: 4%;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
   }
 
+  .twin-btn button:hover{
+    background-color: #000;
+    color: #fff;
+  }
   .about-me-container {
     margin-top: 5vh;
     padding: 2em 1em;
   }
 
   .about-me-title {
+    font-size: 20px;
     position: relative;
     top: 0;
     margin-bottom: 1em;
@@ -158,12 +178,16 @@
     margin: 1em auto;
     border-radius: 10px;
   }
+  .experience-card h2, .education-card h2{
+    font-size: 18px;
+  }
 
   .my-description {
     width: 90%;
     margin: 1em auto;
     position: relative;
     top: 0;
+    word-spacing: 5px;
   }
 
   .experience-container {
@@ -171,44 +195,86 @@
     height: auto;
     margin-top: 2em;
     padding: 1em 0;
+    text-align: center;
   }
 
   .experience-title {
     position: relative;
     top: 0;
     margin-bottom: 1em;
+    text-align: center;
   }
-
+  .experience-title h2{
+    font-size: 24px;
+  }
   .experience-card-container {
     flex-direction: column;
     margin: 1em auto;
   }
+  .experience-card, .education-card{
+    /* background-color: red; */
+    margin-top: 4%;
+    margin-bottom: 4%;
+    padding: 1em;
+  }
 
   .card-frontend-dev,
   .card-backend-dev {
-    width: 90%;
+    width: 100%;
     margin: 1em auto;
     height: auto;
     border-radius: 10px;
+    /* border: 2px solid #000; */
   }
 
   .role-title {
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 2em;
+    font-weight: bold;
+  }
+  .experince-languages{
+    display: flex;
+    /* background-color: yellow; */
+  }
+
+  .row-1{
+    /* background-color: red; */
+    margin: auto;
+    position: relative;
+    left: 7%;
+    width: 48%;
+  }
+  .row-2{
+    /* background-color: red; */
+    margin: auto;
+    position: relative;
+    left: 3.5%;
+    width: 48%;
   }
 
   .icon-experience {
     flex-direction: column;
     align-items: start;
+    display: flex;
   }
-
+  .icon-experience .actual-icon{
+    position: relative;
+    top: 2.3vh;
+    left: 5%;
+    width: 10px;
+  }
   .icon-experience p {
-    font-size: 16px;
+    font-size: 14px;
+    color: #000;
+    position: relative;
+    left: 20%;
   }
 
   .experience-level {
-    margin-left: 0;
-    text-align: center;
+    font-size: 14px;
+    color: rgb(100, 100, 100);
+    margin-left: 20%;
+    text-align: left;
     top: 0;
   }
 }

@@ -11,14 +11,14 @@ function Navbar(){
       };
 
     return(
-        <div className="navbar">
+        <div className="navbar navbar-expand-lg">
             <div className="logo">
                 <a href='#' className="logo-content">KEFFA</a>
             </div>
             <FontAwesomeIcon className="menu-icon" onClick={toggleMenu} icon={faBars} />            
             <ul className={`nav-links ${menuOpen ? "active" : ""}`}>
                 <li><a href='#' className="links-content">About</a></li>
-                <li><a href='#' className="links-content">Experience</a></li>
+                <li><a href='#' className="links-content">Technical skills</a></li>
                 <li><a href='#' className="links-content">Projects</a></li>
                 <li><a href='#' className="links-content">Contact</a></li>
             </ul>
