@@ -28,7 +28,7 @@ function Aboutme() {
         <div className="my-description">
           My area of specialisation is frontend development. I have an experience of over 2.5 years in frontend development. 
           Besides frontend development, I ventured into Backend development in which have an experience of 1.5 years.
-
+          <br />
           I'm a pursuant of Degree in Bachelor of Science in Applied Computer Science, currently in my 3rd year of studies.
           Passion for solving problems using various programming languages is the main reason that led me to pursue my course.
         </div>

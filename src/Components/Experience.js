@@ -7,7 +7,7 @@ return(
     <div className="experience-container">
       <div className="experience-title">
         <h4>Explore my</h4>
-        <h2>Experience</h2>
+        <h2>Skills</h2>
       </div>
       <div className="experience-card-container">
         <div className="card-frontend-dev">
