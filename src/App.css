@@ -165,14 +165,15 @@
   }
 
   .twin-btn{
-    display: inline-flex;
+    display: flex;
     margin: auto;
   }
   
   .twin-btn button{
+    width: 100%;
     position: relative;
     border-radius: 25px;
-    padding: 1.2em;
+    padding: 1em;
     border: 2px solid #000;
     top: 2em;
     outline: none;
