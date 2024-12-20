@@ -113,11 +113,12 @@
     margin: auto;
     left: 5em;
   }
+  
   .card-2 h3{
     color: rgb(83, 83, 83);
   }
   .dev_me_img {
-    width: 35em;
+    width: 30em;
     position: relative;
     margin: auto;
   }
