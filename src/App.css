@@ -113,7 +113,7 @@
     margin: auto;
     left: 5em;
   }
-  
+
   .card-2 h3{
     color: rgb(83, 83, 83);
   }
@@ -165,14 +165,14 @@
   }
 
   .twin-btn{
-    display: flex;
+    display: inline-flex;
     margin: auto;
   }
   
   .twin-btn button{
     position: relative;
     border-radius: 25px;
-    padding: 1em;
+    padding: 1.2em;
     border: 2px solid #000;
     top: 2em;
     outline: none;
