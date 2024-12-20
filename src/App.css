@@ -170,13 +170,14 @@
   }
   
   .twin-btn button{
-    width: 100%;
+    /* width: 80vw; */
     position: relative;
     border-radius: 25px;
-    padding: 1em;
-    border: 2px solid #000;
+    padding: .8em;
+    border: 1px solid #000;
     top: 2em;
     outline: none;
+    font-size: 14px;
   }
   
   .twin-btn button:hover{
