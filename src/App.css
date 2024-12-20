@@ -6,7 +6,7 @@
   padding: 0;
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1200px) {
   body{
     color: #000;
     font-family: "Poppins", sans-serif;
@@ -33,7 +33,7 @@
   
   .navbar ul{
     position: absolute;
-    left: 45%;
+    left: 42%;
     top: 2em;
     height: 2em;
   }
@@ -95,40 +95,38 @@
   }
   .cards-container{
     display: flex;
-    width: 80%;
+    width: 60%;
     height: 70vh;
     margin: auto;
     border-radius: 10px;
     margin-top: -15vh;
-    box-shadow:  0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0 rgba(0, 0, 0, 0.19);
-    transition: box-shadow 1s;
   }
   .card-1{
-    width: 37%;
+    width: 26.7%;
+    margin: auto;
+    position: relative;
+    right: 12em;
   }
   .card-2{
-    width: 33%;
+    width: 26.7%;
     position: relative;
-    top: 20vh;
-    left: 5%;
+    margin: auto;
+    left: 5em;
   }
   .card-2 h3{
     color: rgb(83, 83, 83);
   }
-  .dev_me_img{
-    width: 100%;
+  .dev_me_img {
+    width: 35em;
     position: relative;
-    top: 5vh;
     margin: auto;
-    left: 25%;
   }
   .icons-container{
-    width: inherit;
-    height: inherit;
-    display: flex;
-    position: absolute;
-    bottom: 30vh;
-    left: 105%;
+    width: 26.7%;
+    height: auto;
+    position: relative;
+    margin: auto;
+    left: 5em;
   }
   .icons-container ul {
     position: relative;
@@ -166,10 +164,8 @@
   }
 
   .twin-btn{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    /* background-color: chartreuse; */
+    display: flex;
+    margin: auto;
   }
   
   .twin-btn button{
@@ -266,7 +262,7 @@
   }
   .card-frontend-dev, .card-backend-dev{
     text-align: center;
-    width: 45%;
+    width: 48%;
     height: 52vh;
     border: 1px solid #000;
     border-radius: 15px;
