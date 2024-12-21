@@ -24,7 +24,7 @@ return(
                         <div className="icons-container">
                             <ul>
                                 <li>                    
-                                    <a href="https://github.com/syncd3v" target="_blank" rel="noopener noreferrer">
+                                    <a href="https://github.com/efpha" target="_blank" rel="noopener noreferrer">
                                     <FontAwesomeIcon className="social_media_icon" icon={faGithub} size="2x" />
                                     <p>Github</p>
                                     </a>
@@ -36,7 +36,7 @@ return(
                                     </a>
                                 </li>
                                 <li>                    
-                                    <a href="https://x.com/ef_pha" target="_blank" rel="noopener noreferrer">
+                                    <a href="https://x.com/syncd3v" target="_blank" rel="noopener noreferrer">
                                     <FontAwesomeIcon className="social_media_icon" icon={faXTwitter} size="2x"/>
                                     <p>Twitter/X</p>
                                     </a>
