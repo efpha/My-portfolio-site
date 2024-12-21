@@ -8,7 +8,7 @@
     margin: 0;
     padding: 0;
   }
-  
+
   body{
     color: #000;
     font-family: "Poppins", sans-serif;
@@ -172,10 +172,9 @@
   }
   
   .twin-btn button{
-    /* width: 80vw; */
     position: relative;
     border-radius: 25px;
-    padding: .8em;
+    padding: 1.5em;
     border: 1px solid #000;
     top: 2em;
     outline: none;

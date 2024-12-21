@@ -24,7 +24,7 @@ return(
                         <div className="icons-container">
                             <ul>
                                 <li>                    
-                                    <a href="https://github.com/efpha" target="_blank" rel="noopener noreferrer">
+                                    <a href="https://github.com/syncd3v" target="_blank" rel="noopener noreferrer">
                                     <FontAwesomeIcon className="social_media_icon" icon={faGithub} size="2x" />
                                     <p>Github</p>
                                     </a>
