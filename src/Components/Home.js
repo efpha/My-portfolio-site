@@ -5,7 +5,7 @@ import dev_me from './images/roundimg.png'
 
 function Home(){
     const downloadCv = () => {
-            fetch('cepha-portfolio-backend.vercel.app', {
+            fetch('https://cepha-portfolio-backend.vercel.app/api/download-cv', {
                 method: 'GET',
             })
             .then((response) => {
@@ -15,7 +15,8 @@ function Home(){
                 throw new Error('Error dowloading file');
             })
             .then((blob) => {
-                const url = window.URL.createObjectURL(blob);                const a = document.createElement('a');
+                const url = window.URL.createObjectURL(blob);                
+                const a = document.createElement('a');
                 a.href = url;
                 a.download = 'Resume_Joyanne_Achieng';
                 a.click()
