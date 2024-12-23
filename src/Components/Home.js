@@ -45,19 +45,19 @@ return(
                         <div className="icons-container">
                             <ul>
                                 <li>                    
-                                    <a href="https://github.com/efpha" target="_blank" rel="noopener noreferrer">
+                                    <a href="https://github.com/efpha" target="_self" rel="noopener noreferrer">
                                     <FontAwesomeIcon className="social_media_icon" icon={faGithub} size="2x" />
                                     <p>Github</p>
                                     </a>
                                 </li>
                                 <li>                    
-                                    <a href="https://www.linkedin.com/in/syncd3v/" target="_blank" rel="noopener noreferrer">
+                                    <a href="https://www.linkedin.com/in/syncd3v/" target="_self" rel="noopener noreferrer">
                                     <FontAwesomeIcon className="social_media_icon" icon={faLinkedin} size="2x" />
                                     <p>linkedin</p>
                                     </a>
                                 </li>
                                 <li>                    
-                                    <a href="https://x.com/syncd3v" target="_blank" rel="noopener noreferrer">
+                                    <a href="https://x.com/syncd3v" target="_self" rel="noopener noreferrer">
                                     <FontAwesomeIcon className="social_media_icon" icon={faXTwitter} size="2x"/>
                                     <p>Twitter/X</p>
                                     </a>
