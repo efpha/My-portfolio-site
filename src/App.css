@@ -155,7 +155,10 @@
   .icons-container ul li a:hover {
     transform: scale(1.2); 
   }
-  
+  .icons-container ul li a:focus {
+    outline: none;
+    box-shadow: none;
+}
 
   .home-container .home-card .home-content{
     position: relative;

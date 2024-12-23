@@ -146,6 +146,12 @@
   .icons-container ul li a:hover {
     transform: scale(1.2); 
   }
+
+  .icons-container ul li a:focus {
+    outline: none;
+    box-shadow: none;
+}
+
   .social_media_icon{
     width: 20px;
   }
