@@ -15,8 +15,7 @@ function Home(){
                 throw new Error('Error dowloading file');
             })
             .then((blob) => {
-                const url = window.createObjectURL(blob);
-                const a = document.createElement('a');
+                const url = window.URL.createObjectURL(blob);                const a = document.createElement('a');
                 a.href = url;
                 a.download = 'Resume_Joyanne_Achieng';
                 a.click()
