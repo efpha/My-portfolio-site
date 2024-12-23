@@ -5,7 +5,7 @@ import dev_me from './images/roundimg.png'
 
 function Home(){
     const downloadCv = () => {
-            fetch('cepha-portfolio-backend.vercel.app/api/download-cv', {
+            fetch('cepha-portfolio-backend.vercel.app', {
                 method: 'GET',
             })
             .then((response) => {
