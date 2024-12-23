@@ -4,6 +4,27 @@ import { faGithub, faLinkedin, faXTwitter } from "@fortawesome/free-brands-svg-i
 import dev_me from './images/roundimg.png'
 
 function Home(){
+    const downloadCv = () => {
+            fetch('http://localhost:5000/api/download-cv', {
+                method: 'GET',
+            })
+            .then((response) => {
+                if(response.ok) {
+                    return response.blob();
+                }
+                throw new Error('Error dowloading file');
+            })
+            .then((blob) => {
+                const url = window.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = 'Resume_Joyanne_Achieng';
+                a.click()
+                window.URL.revokeObjectURL(url);
+            })
+            .catch((err) => console.log(err)
+            )
+        }
 return(
     <div className="home-container">
         <div className="home-card">
@@ -17,7 +38,7 @@ return(
                             <h2>Keffa Muthuri</h2>
                             <h3>Frontend Developer</h3>
                             <div className="twin-btn">
-                                <button className="btn-D">Download cv</button>
+                                <button className="btn-D" onClick={downloadCv}>Download cv</button>
                                 <button className="btn-C">Contact info</button>
                             </div>
                         </div>
