@@ -4,7 +4,7 @@ import { faCertificate } from "@fortawesome/free-solid-svg-icons";
 
 function Experience(){
 return(
-    <div className="experience-container">
+    <div className="experience-container" id="Experience">
       <div className="experience-title">
         <h4>Explore my</h4>
         <h2>Skills</h2>
