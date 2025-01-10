@@ -92,7 +92,6 @@
   .home-content{
     text-align: center;
     width: 100%;
-    /* background-color: red; */
     align-items: center;
   }
   .cards-container{
@@ -107,20 +106,21 @@
     width: 26.7%;
     margin: auto;
     position: relative;
-    right: 12em;
+    right: 6em;
   }
   .card-2{
+
     width: 26.7%;
     position: relative;
     margin: auto;
-    left: 5em;
+    left: 2em;
   }
 
   .card-2 h3{
-    color: rgb(83, 83, 83);
+    /* color: rgb(83, 83, 83); */
   }
   .dev_me_img {
-    width: 30em;
+    width: 25em;
     position: relative;
     margin: auto;
   }
