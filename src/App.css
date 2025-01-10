@@ -46,7 +46,7 @@
     width: 100%;
     list-style-type: none;
     margin: 1em;
-    font-size: 20px;
+    font-size: 16px;
 
   }
   .navbar a, .navbar ul li a{
@@ -130,7 +130,6 @@
     height: auto;
     position: relative;
     margin: auto;
-    /* background-color: red; */
   }
   .icons-container ul {
     position: relative;
@@ -163,7 +162,6 @@
   .home-container .home-card .home-content{
     position: relative;
     top: 20vh;
-    /* background-color: aqua; */
     text-align: center;
     line-height: 2.5em;
     /* margin-top: 10vh; */
@@ -200,9 +198,8 @@
   }
   
   .about-me-container{
-    /* background-color: grey; */
-    height: 90vh;
-    margin-top: 18vh;
+    height: 80vh;
+    margin-bottom: 20vh;
   }
   .about-me-title{
     text-align: center;
@@ -226,6 +223,7 @@
     height: 25vh;
     position: relative;
     display: block;
+    font-size: 16px;
   }
   .experience-card{
     position: relative;
@@ -244,13 +242,14 @@
     position: relative;
     top: 19vh;
     word-spacing: 5px;
+    font-size: 16px;
   }
 
   .experience-container{
     width: 80%;
     height: 90vh;
     text-align: center;
-    margin: auto;
+    margin: -10vh auto 15em auto;
   }
   .experience-title{
     position: relative;
@@ -265,22 +264,24 @@
   .experience-card-container{
     width: 80%;
     display: flex;
-    /* background-color: red; */
     margin: auto;
     position: relative;
     top: 20%;
+  }
+  .experience-card h2, .education-card h2{
+    font-size: 22px;
   }
   .card-frontend-dev, .card-backend-dev{
     text-align: center;
     width: 48%;
     height: 52vh;
-    border: 1px solid #000;
+    border: .5px solid #000;
     border-radius: 15px;
     margin: auto;
   }
   .role-title{
     color: rgb(83, 83, 83);
-    font-size: 25px;
+    font-size: 22px;
     font-weight: bold;
     margin-top: 5vh;
   }
@@ -289,14 +290,17 @@
   }
   .row-1{
     text-align: start;
+
   }
   .icon-experience{
     display: flex;
     padding: 1em;
   }
+
   .icon-experience p{
+    margin-top: -.25em;
     margin-left: 1em;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
     color: #000;
   }
@@ -304,7 +308,8 @@
     margin-left: 3.5em;
     color: rgb(83, 83, 83);
     position: relative;
-    top: -1vh;
+    top: -2vh;
+    font-size: 15px;
   }
   .row-2{
     text-align: start;

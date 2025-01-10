@@ -13,11 +13,11 @@ function App() {
       <div id="home">
         <Home />
       </div>
-      <div id="aboutme">
-        <Aboutme />
-      </div>
       <div id="experience">
         <Experience />
+      </div>
+      <div id="aboutme">
+        <Aboutme />
       </div>
     </div>
   );
