@@ -17,6 +17,7 @@ function Navbar(){
             </div>
             <FontAwesomeIcon className="menu-icon" onClick={toggleMenu} icon={faBars} />            
             <ul className={`nav-links ${menuOpen ? "active" : ""}`}>
+                <li><a href='#' className="links-content">Home</a></li>
                 <li><a href='#' className="links-content">About</a></li>
                 <li><a href='#' className="links-content">Technical skills</a></li>
                 <li><a href='#' className="links-content">Projects</a></li>
