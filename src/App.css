@@ -129,12 +129,11 @@
     height: auto;
     position: relative;
     margin: auto;
-    left: 5em;
+    /* background-color: red; */
   }
   .icons-container ul {
     position: relative;
-    padding-left: 2em;
-    padding-right: 2em;
+    padding: 2em 0;
   }
   
   .icons-container ul li {
