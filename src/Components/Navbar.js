@@ -11,7 +11,7 @@ function Navbar() {
   };
 
   return (
-    <div className="navbar navbar-expand-lg">
+    <div className="navbar">
       <div className="logo">
         <ScrollLink
           to="home"
@@ -57,6 +57,12 @@ function Navbar() {
           >
             Technical Skills
           </ScrollLink>
+        </li>
+        <li>
+          Projects
+        </li>
+        <li>
+          Contact
         </li>
       </ul>
     </div>
