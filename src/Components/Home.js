@@ -5,7 +5,7 @@ import dev_me from './images/roundimg.png'
 
 function Home(){
     const downloadCv = () => {
-            fetch('https://portfolio-backend-production-d8c5.up.railway.app/api/download-cv', {
+            fetch('https://portfolio-backend-three-inky.vercel.app/api/download-cv', {
                 method: 'GET',
             })
             .then((response) => {
