@@ -5,7 +5,7 @@ import dev_me from './images/roundimg.png'
 
 function Home(){
     const downloadCv = () => {
-            fetch('https://portfolio-backend-three-inky.vercel.app/api/download-cv', {
+            fetch('https://cephaportfoliobackend.onrender.com/api/download-cv', {
                 method: 'GET',
             })
             .then((response) => {
