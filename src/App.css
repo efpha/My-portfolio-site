@@ -11,6 +11,7 @@
 
   body{
     color: #000;
+    color: var(--theme-color);
     font-family: "Poppins", sans-serif;
   }
   
@@ -61,6 +62,7 @@
   .navbar a, .navbar ul li a{
     text-decoration: none;
     color: #000;
+    color: var(--theme-color);
     padding: 1em;
     border-width: 0%;
     transition: border-width 2s;
