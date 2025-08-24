@@ -10,7 +10,11 @@
   }
 
   body{
+<<<<<<< HEAD
     color: #000;
+=======
+    color: var(--theme-color);
+>>>>>>> f0cea15 (Portfolio update)
     font-family: "Poppins", sans-serif;
   }
   
@@ -60,7 +64,11 @@
   }
   .navbar a, .navbar ul li a{
     text-decoration: none;
+<<<<<<< HEAD
     color: #000;
+=======
+    color: var(--theme-color);
+>>>>>>> f0cea15 (Portfolio update)
     padding: 1em;
     border-width: 0%;
     transition: border-width 2s;

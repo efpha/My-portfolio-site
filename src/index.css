@@ -14,3 +14,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+<<<<<<< HEAD
+=======
+:root{
+  --theme-color: #800080;
+}
+>>>>>>> f0cea15 (Portfolio update)
