@@ -5,7 +5,7 @@ import Navbar from './Components/Navbar';
 import Home from './Components/Home';
 import Aboutme from './Components/Aboutme';
 import Experience from './Components/Experience';
-import Project from './Components/project';
+import Project from './Components/Project';
 
 function App() {
   return (
