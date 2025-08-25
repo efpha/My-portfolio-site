@@ -5,6 +5,7 @@ import Navbar from './Components/Navbar';
 import Home from './Components/Home';
 import Aboutme from './Components/Aboutme';
 import Experience from './Components/Experience';
+import Project from './Components/project';
 
 function App() {
   return (
@@ -17,6 +18,9 @@ function App() {
         <Experience />
       </div>
       <div id="aboutme">
+        <Aboutme />
+      </div>
+      <div id="project">
         <Aboutme />
       </div>
     </div>
